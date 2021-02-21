@@ -1,6 +1,6 @@
 ![Nuxt Docker Starter](./banner.png)
 
-This repository is a starter template to run nuxt in a docker container and access the client application with `localhost:8080`. 
+A simple docker starter template to run nuxt in a container which is available via `localhost:8080`. 
 
 ©️ This repository is the same as [laravel-nuxt-docker](https://github.com/nevadskiy/laravel-nuxt-docker) but without laravel. So credits to the team behind it. 
 
