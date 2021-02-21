@@ -1,0 +1,14 @@
+{
+  "name": "nuxt-docker-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "nuxt",
+    "nuxtjs",
+    "nuxt test-utils",
+    "nuxtjs docker"
+  ],
+  "author": "Kevin Regenrek <hello@regenrek.at>",
+  "description": "Nuxt.js + Nginx and Docker starter project",
+  "license": "MIT"
+}

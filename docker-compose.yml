@@ -1,0 +1,21 @@
+version: '3'
+services:
+  nginx:
+    build:
+      context: docker/dev/nginx
+      dockerfile: Dockerfile
+    ports:
+      # Nuxt port
+      - 8080:80
+    volumes:
+      - ./:/var/www
+      - ./docker/dev/nginx/logs:/var/log/nginx
+    links:
+      - client
+
+  client:
+    build:
+      context: docker/dev/client
+      dockerfile: Dockerfile
+    volumes:
+      - ./client:/var/www/client
